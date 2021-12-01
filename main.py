@@ -1,12 +1,13 @@
 import json 
 import requests
-
+import os
 while 420>69:
     seetaken = (input("do you want to see taken accounts? (y/n):  "))
     if seetaken == "y" or "n":
         break
     else: 
         print("no, i said choose between y/n")
+        os.system("python3 main.py") // Restart Script.
 
 while 3>2:
     x= str(requests.get(f"https://random-word-api.herokuapp.com/word?number=1")).replace('"', '').replace("'", "").replace('[',"").replace(']',"")
