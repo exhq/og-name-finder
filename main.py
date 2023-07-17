@@ -3,7 +3,7 @@ import requests
 
 while 420>69:
     seetaken = (input("do you want to see taken accounts? (y/n):  "))
-    if seetaken == "y" or "n":
+    if seetaken == "y" or seetaken == "n":
         break
     else: 
         print("no, i said choose between y/n")
